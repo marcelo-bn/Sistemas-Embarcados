@@ -31,7 +31,7 @@ unsigned long RMS(int medidas) {
 
 void loop() {
   unsigned long val = 0;
-  val = RMS(2);
+  val = RMS(30);
   Serial.print("Digital: ");
   Serial.print(val);
   Serial.println(" mV");
