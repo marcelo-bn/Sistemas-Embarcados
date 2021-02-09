@@ -9,8 +9,8 @@ String legenda[10] = {"   0-500 "," 500-1000","1000-1500","1500-2000","2000-2500
 
 void setup() {
   Serial.begin(9600);
-  Timer1.initialize(100000); // 100ms
   Timer1.attachInterrupt(leitura);
+  Timer1.initialize(100000); // 100ms
 }
 
 void loop() {}
